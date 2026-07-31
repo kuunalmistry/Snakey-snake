@@ -76,12 +76,6 @@ npm run dev
 
 ⸻
 
-📸 Screenshots
-
-Add gameplay screenshots or GIFs here to showcase the game.
-
-⸻
-
 👨‍💻 Author
 
 Kuunal Mistry
