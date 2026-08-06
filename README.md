@@ -1,4 +1,4 @@
-🐍 Snakey Snake
+🐍 Snakey-Snake
 
 A modern take on the classic Snake game built with React and Vite. Snakey Snake combines nostalgic gameplay with a clean user interface, smooth controls, and engaging features to deliver a fun and responsive gaming experience across desktop and mobile devices.
 
