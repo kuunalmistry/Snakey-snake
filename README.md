@@ -1,85 +1,375 @@
-🐍 Snakey-Snake
+<div align="center">
 
-A modern take on the classic Snake game built with React and Vite. Snakey Snake combines nostalgic gameplay with a clean user interface, smooth controls, and engaging features to deliver a fun and responsive gaming experience across desktop and mobile devices.
+<h1>🐍 Snakey-Snake</h1>
 
-⸻
+<h3>A Modern Take on the Classic Snake Game</h3>
 
-🎮 Overview
+<p>
+<strong>
+A modern and responsive Snake game built with React and Vite,
+combining nostalgic gameplay with smooth controls and a clean
+user interface across desktop and mobile devices.
+</strong>
+</p>
 
-Snakey Snake is a browser-based game where players control a snake, collect food to grow longer, and avoid collisions with walls or themselves. The project focuses on responsive gameplay, performance, and an enjoyable user experience.
+<p>
+<img src="https://img.shields.io/badge/React-18%2B-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React">
+<img src="https://img.shields.io/badge/Vite-Fast%20Build%20Tool-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite">
+<img src="https://img.shields.io/badge/JavaScript-ES6%2B-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
+<img src="https://img.shields.io/badge/HTML5-Web- E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
+<img src="https://img.shields.io/badge/CSS3-Styling-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
+</p>
 
-⸻
+</div>
 
-✨ Features
+<hr>
 
-* Classic Snake gameplay
-* Smooth keyboard and touch/swipe controls
-* Responsive design for desktop and mobile
-* Score tracking
-* Increasing difficulty as the game progresses
-* Modern and minimal user interface
-* Fast performance powered by React and Vite
+<h2>📌 Overview</h2>
 
-⸻
+<p>
+<strong>Snakey-Snake</strong> is a browser-based implementation of the
+classic Snake game, rebuilt using modern web technologies.
+</p>
 
-🛠️ Tech Stack
+<p>
+Players control a snake, collect food to increase its length, and avoid
+collisions with the game boundaries and the snake's own body.
+</p>
 
-* React
-* Vite
-* JavaScript
-* HTML5
-* CSS3
+<p>
+The project focuses on responsive gameplay, smooth controls, performance,
+and an enjoyable user experience across both desktop and mobile devices.
+</p>
 
-⸻
+<hr>
 
-📁 Project Structure
+<h2>🎯 Objectives</h2>
 
+<ul>
+<li>Recreate the classic Snake gaming experience.</li>
+<li>Build a responsive browser-based game.</li>
+<li>Provide smooth keyboard and touch controls.</li>
+<li>Create a clean and minimal user interface.</li>
+<li>Implement dynamic score tracking.</li>
+<li>Increase game difficulty as the player progresses.</li>
+<li>Ensure compatibility across desktop and mobile devices.</li>
+<li>Demonstrate modern React-based game development.</li>
+</ul>
+
+<hr>
+
+<h2>✨ Features</h2>
+
+<ul>
+<li>🐍 Classic Snake gameplay</li>
+<li>🎮 Smooth keyboard controls</li>
+<li>📱 Touch and swipe controls</li>
+<li>🖥️ Responsive desktop and mobile design</li>
+<li>🏆 Real-time score tracking</li>
+<li>📈 Increasing difficulty as the game progresses</li>
+<li>🎨 Modern and minimal user interface</li>
+<li>⚡ Fast performance powered by React and Vite</li>
+<li>🔄 Instant game restart</li>
+<li>📐 Responsive game layout</li>
+</ul>
+
+<hr>
+
+<h2>🛠️ Technologies Used</h2>
+
+<table>
+<thead>
+<tr>
+<th>Technology</th>
+<th>Purpose</th>
+</tr>
+</thead>
+
+<tbody>
+
+<tr>
+<td>⚛️ React</td>
+<td>User interface and game component development</td>
+</tr>
+
+<tr>
+<td>⚡ Vite</td>
+<td>Fast development server and build tool</td>
+</tr>
+
+<tr>
+<td>🟨 JavaScript</td>
+<td>Game logic and application functionality</td>
+</tr>
+
+<tr>
+<td>🌐 HTML5</td>
+<td>Web application structure</td>
+</tr>
+
+<tr>
+<td>🎨 CSS3</td>
+<td>Styling, layout, and responsive design</td>
+</tr>
+
+</tbody>
+</table>
+
+<hr>
+
+<h2>📂 Project Structure</h2>
+
+<pre>
 Snakey-Snake/
+│
 ├── src/
+│   └── React components and game logic
+│
 ├── public/
+│   └── Static public assets
+│
 ├── assets/
+│   └── Images and game resources
+│
 ├── package.json
 ├── vite.config.js
 └── README.md
+</pre>
 
-⸻
+<hr>
 
-🚀 Getting Started
+<h2>🎮 Game Mechanics</h2>
 
-Clone the repository:
+<h3>🐍 Snake Movement</h3>
 
-git clone https://github.com/kuunalmistry/Snakey-Snake.git
+<p>
+The player controls the snake using keyboard controls on desktop
+or touch and swipe gestures on supported mobile devices.
+</p>
 
-Navigate to the project:
+<h3>🍎 Food Collection</h3>
 
-cd Snakey-Snake
+<p>
+The snake grows longer whenever it successfully collects food.
+Each collected item increases the player's score.
+</p>
 
-Install dependencies:
+<h3>💥 Collision Detection</h3>
 
-npm install
+<p>
+The game detects collisions between the snake and the game boundaries
+as well as collisions with its own body.
+</p>
 
-Start the development server:
+<h3>📈 Increasing Difficulty</h3>
 
-npm run dev
+<p>
+As the player's score increases, the game becomes progressively more
+challenging by increasing the pace of gameplay.
+</p>
 
-⸻
+<hr>
 
-🔮 Future Improvements
+<h2>🔄 Game Workflow</h2>
 
-* Leaderboard support
-* Online multiplayer mode
-* Additional game themes
-* Power-ups and special abilities
-* Sound effects and background music
-* Difficulty selection
-* Save high scores locally or in the cloud
+<pre>
+        Start Game
+             ↓
+       Control Snake
+             ↓
+       Collect Food
+             ↓
+      Snake Gets Longer
+             ↓
+        Score Increases
+             ↓
+      Difficulty Increases
+             ↓
+     ┌───────┴────────┐
+     ↓                ↓
+  Collision         No Collision
+     ↓                ↓
+ Game Over       Continue Playing
+</pre>
 
-⸻
+<hr>
 
-👨‍💻 Author
+<h2>🖥️ User Interface</h2>
 
-Kuunal Mistry
+<p>
+The game uses a clean and minimal interface designed to keep the
+focus on gameplay.
+</p>
 
-B.Tech Student | Artificial Intelligence & Machine Learning
+<ul>
+<li>🎮 Game board</li>
+<li>🏆 Score display</li>
+<li>🐍 Snake and food elements</li>
+<li>🔄 Restart functionality</li>
+<li>📱 Mobile-friendly controls</li>
+</ul>
 
-Passionate about building interactive web applications, games, and machine learning projects that combine creativity with technology.
+<p>
+The responsive layout allows the game to adapt to different screen
+sizes and device orientations.
+</p>
+
+<hr>
+
+<h2>📱 Responsive Design</h2>
+
+<p>
+Snakey-Snake is designed to work across a variety of devices,
+including desktop computers, tablets, and smartphones.
+</p>
+
+<table>
+<thead>
+<tr>
+<th>Platform</th>
+<th>Controls</th>
+</tr>
+</thead>
+
+<tbody>
+
+<tr>
+<td>💻 Desktop</td>
+<td>Keyboard controls</td>
+</tr>
+
+<tr>
+<td>📱 Mobile</td>
+<td>Touch and swipe controls</td>
+</tr>
+
+<tr>
+<td>📟 Tablet</td>
+<td>Touch controls</td>
+</tr>
+
+</tbody>
+</table>
+
+<hr>
+
+<h2>🚀 Getting Started</h2>
+
+<h3>Prerequisites</h3>
+
+<ul>
+<li>Node.js</li>
+<li>npm</li>
+<li>Git</li>
+<li>A modern web browser</li>
+</ul>
+
+<h3>1. Clone the Repository</h3>
+
+<pre><code>git clone https://github.com/kuunalmistry/Snakey-Snake.git</code></pre>
+
+<h3>2. Navigate to the Project</h3>
+
+<pre><code>cd Snakey-Snake</code></pre>
+
+<h3>3. Install Dependencies</h3>
+
+<pre><code>npm install</code></pre>
+
+<h3>4. Start the Development Server</h3>
+
+<pre><code>npm run dev</code></pre>
+
+<p>
+After starting the development server, open the local URL provided
+by Vite in your web browser.
+</p>
+
+<hr>
+
+<h2>🏗️ Application Architecture</h2>
+
+<pre>
+              ┌─────────────────────┐
+              │       Player        │
+              └──────────┬──────────┘
+                         ↓
+              ┌─────────────────────┐
+              │   User Controls     │
+              │ Keyboard / Touch    │
+              └──────────┬──────────┘
+                         ↓
+              ┌─────────────────────┐
+              │    React Game       │
+              │      Engine         │
+              └──────────┬──────────┘
+                         ↓
+              ┌─────────────────────┐
+              │    Game State       │
+              │ Snake / Food / Score│
+              └──────────┬──────────┘
+                         ↓
+              ┌─────────────────────┐
+              │ Collision Detection │
+              └──────────┬──────────┘
+                         ↓
+              ┌─────────────────────┐
+              │   Game Result       │
+              │ Continue / Game Over│
+              └─────────────────────┘
+</pre>
+
+<hr>
+
+<h2>🧠 Key Concepts Demonstrated</h2>
+
+<ul>
+<li>⚛️ React component-based development</li>
+<li>🔄 State management</li>
+<li>🎮 Real-time game logic</li>
+<li>💥 Collision detection</li>
+<li>⌨️ Keyboard event handling</li>
+<li>📱 Touch and swipe event handling</li>
+<li>⏱️ Game timing and movement updates</li>
+<li>📊 Dynamic score management</li>
+<li>📐 Responsive web design</li>
+<li>⚡ Vite-based development workflow</li>
+</ul>
+
+<hr>
+
+<h2>📌 Limitations</h2>
+
+<ul>
+<li>The current version is designed primarily for single-player gameplay.</li>
+<li>Online multiplayer functionality is not included.</li>
+<li>Game scores are currently handled locally within the application.</li>
+<li>The game requires a modern web browser with JavaScript enabled.</li>
+</ul>
+
+<hr>
+
+<h2>👨‍💻 Author</h2>
+
+<h3>Kuunal Mistry</h3>
+
+<p>
+<strong>B.Tech Student | Artificial Intelligence &amp; Machine Learning</strong>
+</p>
+
+<p>
+Passionate about building interactive web applications, games,
+and Machine Learning projects that combine creativity with technology.
+</p>
+
+<hr>
+
+<div align="center">
+
+<h3>🐍 Classic Gameplay. Modern Experience.</h3>
+
+<p>
+<strong>Built with React, Vite, JavaScript, HTML5 &amp; CSS3</strong>
+</p>
+
+</div>
