@@ -16,7 +16,7 @@ user interface across desktop and mobile devices.
 <img src="https://img.shields.io/badge/React-18%2B-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React">
 <img src="https://img.shields.io/badge/Vite-Fast%20Build%20Tool-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite">
 <img src="https://img.shields.io/badge/JavaScript-ES6%2B-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
-<img src="https://img.shields.io/badge/HTML5-Web- E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
+<img src="https://img.shields.io/badge/HTML5-Web-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
 <img src="https://img.shields.io/badge/CSS3-Styling-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
 </p>
 
@@ -117,6 +117,42 @@ and an enjoyable user experience across both desktop and mobile devices.
 
 <hr>
 
+<h2>🏆 Project Highlights</h2>
+
+<table>
+<tr>
+<td>🎮 <strong>Game Type</strong></td>
+<td>Classic Snake</td>
+</tr>
+
+<tr>
+<td>💻 <strong>Platform</strong></td>
+<td>Web Browser</td>
+</tr>
+
+<tr>
+<td>📱 <strong>Responsive</strong></td>
+<td>Desktop &amp; Mobile</td>
+</tr>
+
+<tr>
+<td>🎯 <strong>Controls</strong></td>
+<td>Keyboard &amp; Touch</td>
+</tr>
+
+<tr>
+<td>⚡ <strong>Build Tool</strong></td>
+<td>Vite</td>
+</tr>
+
+<tr>
+<td>⚛️ <strong>Framework</strong></td>
+<td>React</td>
+</tr>
+</table>
+
+<hr>
+
 <h2>📂 Project Structure</h2>
 
 <pre>
@@ -170,6 +206,63 @@ challenging by increasing the pace of gameplay.
 
 <hr>
 
+<h2>🕹️ How to Play</h2>
+
+<h3>💻 Desktop Controls</h3>
+
+<table>
+<thead>
+<tr>
+<th>Key</th>
+<th>Action</th>
+</tr>
+</thead>
+
+<tbody>
+
+<tr>
+<td>⬆️ Arrow Up</td>
+<td>Move Up</td>
+</tr>
+
+<tr>
+<td>⬇️ Arrow Down</td>
+<td>Move Down</td>
+</tr>
+
+<tr>
+<td>⬅️ Arrow Left</td>
+<td>Move Left</td>
+</tr>
+
+<tr>
+<td>➡️ Arrow Right</td>
+<td>Move Right</td>
+</tr>
+
+</tbody>
+</table>
+
+<h3>📱 Mobile Controls</h3>
+
+<ul>
+<li>👆 Swipe Up – Move Up</li>
+<li>👇 Swipe Down – Move Down</li>
+<li>👈 Swipe Left – Move Left</li>
+<li>👉 Swipe Right – Move Right</li>
+</ul>
+
+<h3>🎯 Objective</h3>
+
+<p>
+Collect food to increase your score and grow the snake.
+Avoid hitting the walls and your own body.
+The longer you survive and the more food you collect,
+the higher your score becomes.
+</p>
+
+<hr>
+
 <h2>🔄 Game Workflow</h2>
 
 <pre>
@@ -194,25 +287,117 @@ challenging by increasing the pace of gameplay.
 
 <hr>
 
-<h2>🖥️ User Interface</h2>
+<h2>🧠 Game Logic</h2>
 
 <p>
-The game uses a clean and minimal interface designed to keep the
-focus on gameplay.
+The game continuously updates the snake's position based on the
+player's input and checks for food collection and collision events.
 </p>
 
+<p>
+The core game loop manages movement, collision detection, food
+generation, score updates, and game state changes.
+</p>
+
+<pre>
+Player Input
+     ↓
+Direction Update
+     ↓
+Snake Movement
+     ↓
+Collision Detection
+     ↓
+Food Detection
+     ↓
+Score Update
+     ↓
+Game State Update
+     ↓
+Render Updated Game
+</pre>
+
+<h3>Movement Logic</h3>
+
+<p>
+The snake moves continuously in the current direction. User input
+updates the direction while preventing invalid immediate reversals.
+</p>
+
+<h3>Food Logic</h3>
+
+<p>
+When the snake reaches the food, the food is collected, the snake
+grows, and a new food position is generated.
+</p>
+
+<h3>Collision Logic</h3>
+
+<p>
+The game checks whether the snake has collided with the game boundary
+or its own body. If a collision occurs, the game ends.
+</p>
+
+<hr>
+
+<h2>⚡ Performance</h2>
+
 <ul>
-<li>🎮 Game board</li>
-<li>🏆 Score display</li>
-<li>🐍 Snake and food elements</li>
-<li>🔄 Restart functionality</li>
-<li>📱 Mobile-friendly controls</li>
+<li>⚡ Fast development and build process using Vite</li>
+<li>🔄 Efficient React state updates</li>
+<li>📱 Responsive rendering across screen sizes</li>
+<li>🎮 Smooth real-time gameplay</li>
+<li>🖥️ Lightweight browser-based application</li>
+<li>🚀 Fast loading and development workflow</li>
 </ul>
 
 <p>
-The responsive layout allows the game to adapt to different screen
-sizes and device orientations.
+Vite provides a fast development environment and optimized production
+build process, while React provides a component-based architecture
+for managing the game's interface and state.
 </p>
+
+<hr>
+
+<h2>🌐 Browser Compatibility</h2>
+
+<p>
+Snakey-Snake is designed to work with modern web browsers that support
+JavaScript and modern HTML5 and CSS3 features.
+</p>
+
+<table>
+<thead>
+<tr>
+<th>Browser</th>
+<th>Support</th>
+</tr>
+</thead>
+
+<tbody>
+
+<tr>
+<td>🌐 Google Chrome</td>
+<td>Supported</td>
+</tr>
+
+<tr>
+<td>🔵 Microsoft Edge</td>
+<td>Supported</td>
+</tr>
+
+<tr>
+<td>🦊 Mozilla Firefox</td>
+<td>Supported</td>
+</tr>
+
+<tr>
+<td>🧭 Safari</td>
+<td>Supported</td>
+</tr>
+
+</tbody>
+</table>
 
 <hr>
 
@@ -250,6 +435,28 @@ including desktop computers, tablets, and smartphones.
 
 </tbody>
 </table>
+
+<hr>
+
+<h2>🖥️ User Interface</h2>
+
+<p>
+The game uses a clean and minimal interface designed to keep the
+focus on gameplay.
+</p>
+
+<ul>
+<li>🎮 Game board</li>
+<li>🏆 Score display</li>
+<li>🐍 Snake and food elements</li>
+<li>🔄 Restart functionality</li>
+<li>📱 Mobile-friendly controls</li>
+</ul>
+
+<p>
+The responsive layout allows the game to adapt to different screen
+sizes and device orientations.
+</p>
 
 <hr>
 
@@ -334,6 +541,23 @@ by Vite in your web browser.
 <li>📊 Dynamic score management</li>
 <li>📐 Responsive web design</li>
 <li>⚡ Vite-based development workflow</li>
+</ul>
+
+<hr>
+
+<h2>📚 What I Learned</h2>
+
+<ul>
+<li>Building interactive applications with React.</li>
+<li>Managing dynamic game state.</li>
+<li>Handling keyboard and touch events.</li>
+<li>Implementing collision detection.</li>
+<li>Creating responsive user interfaces.</li>
+<li>Working with reusable React components.</li>
+<li>Using Vite for modern frontend development.</li>
+<li>Managing real-time game interactions.</li>
+<li>Designing applications for both desktop and mobile devices.</li>
+<li>Structuring and organizing a modern frontend project.</li>
 </ul>
 
 <hr>
