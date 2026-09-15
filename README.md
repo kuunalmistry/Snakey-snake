@@ -1,6 +1,6 @@
 <div align="center">
 
-<h1>🐍 Snakey-Snake</h1>
+<h1>🐍 Snakey-Snake The Classic Game</h1>
 
 <h3>A Modern Take on the Classic Snake Game</h3>
 
