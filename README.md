@@ -22,7 +22,6 @@ user interface across desktop and mobile devices.
 
 </div>
 
-
 <hr>
 
 <h2>📌 Overview</h2>
@@ -299,6 +298,7 @@ player's input and checks for food collection and collision events.
 The core game loop manages movement, collision detection, food
 generation, score updates, and game state changes.
 </p>
+
 
 <pre>
 Player Input
